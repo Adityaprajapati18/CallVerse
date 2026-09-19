@@ -235,15 +235,21 @@ Contributions make the open-source community an inspiring place to learn, inspir
 
 ---
 
-## 📝 License
+## 📄 License & Legal Notice
 
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more details.
+This software is distributed under the terms of the **MIT License**. For complete terms, conditions, and permissions, please refer to the [`LICENSE`](LICENSE) file.
 
 ---
 
+## 👤 Maintainer & Support
+
+* **Project Lead**: [Aditya Prajapati](https://github.com/Adityaprajapati18)
+* **Bug Reports & Feedback**: Please submit technical issues or feature proposals via the [GitHub Issue Tracker](https://github.com/Adityaprajapati18/crypto-caller/issues).
+* **Contributions**: Pull requests adhere to standard open-source contribution guidelines.
+
+<br>
+
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/Adityaprajapati18">Aditya Prajapati</a>
+  <sub>Copyright &copy; 2026 Aditya Prajapati. All rights reserved.</sub>
 </p>
-<p align="center">
-  <em>If you found this project helpful, please consider giving it a ⭐ on GitHub!</em>
-</p>
+
