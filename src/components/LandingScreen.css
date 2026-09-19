@@ -1,0 +1,432 @@
+.land {
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--bg-deep);
+  color: var(--text-1);
+  overflow-x: hidden;
+}
+
+/* Nav */
+.land__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 18px 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.land__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-1);
+}
+
+.land__links {
+  display: flex;
+  gap: 28px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-2);
+}
+
+.land__links a:hover {
+  color: var(--text-1);
+}
+
+/* Hero */
+.land__hero {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  align-items: center;
+  gap: 48px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 80px 24px 72px;
+}
+
+.land__pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-soft);
+  border-radius: var(--radius-pill);
+  padding: 6px 14px;
+  margin-bottom: 24px;
+}
+
+.land__h1 {
+  font-size: clamp(40px, 5.5vw, 58px);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  margin-bottom: 18px;
+  color: var(--text-1);
+}
+
+.land__sub {
+  color: var(--text-2);
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 46ch;
+  margin-bottom: 32px;
+}
+
+.land__ctas {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.land__metaRow {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  font-size: 13px;
+  color: var(--text-3);
+  font-weight: 500;
+}
+
+.land__metaRow span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Phone Mockup */
+.land__visual {
+  display: flex;
+  justify-content: center;
+}
+
+.land__phone {
+  width: 270px;
+  aspect-ratio: 9/16;
+  border-radius: 36px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.land__phoneNotch {
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 64px;
+  height: 5px;
+  border-radius: 999px;
+  background: var(--border);
+}
+
+.land__callCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 16px;
+}
+
+.land__callTop {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--success);
+  background: var(--success-soft);
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+}
+
+.land__liveDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--success);
+}
+
+.land__avatarRow {
+  margin: 18px 0 10px;
+}
+
+.land__avatar {
+  width: 76px;
+  height: 76px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+  background: var(--accent);
+}
+
+.land__callerName {
+  font-weight: 700;
+  font-size: 17px;
+  color: var(--text-1);
+}
+
+.land__encLine {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--text-3);
+  margin-top: 4px;
+}
+
+.land__controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.lc {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: white;
+}
+
+.lc--active {
+  background: white;
+  color: #000;
+}
+
+.lc--end {
+  background: var(--danger);
+  border-color: var(--danger);
+}
+
+.land__chip {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-2);
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+}
+
+.chip1 {
+  top: 14%;
+  left: -36px;
+}
+
+.chip2 {
+  bottom: 12%;
+  right: -36px;
+}
+
+/* Sections */
+.land__section {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 64px 24px;
+}
+
+.land__sectionHead {
+  margin-bottom: 36px;
+}
+
+.land__h2 {
+  font-size: clamp(26px, 3.8vw, 34px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-top: 8px;
+  color: var(--text-1);
+}
+
+/* Features Grid */
+.land__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.land__card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px 20px;
+  transition: background var(--ease);
+}
+
+.land__card:hover {
+  background: var(--bg-hover);
+}
+
+.land__icon {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  display: grid;
+  place-items: center;
+  background: var(--accent-soft);
+  color: var(--accent);
+  margin-bottom: 16px;
+}
+
+.land__card h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-1);
+  margin-bottom: 6px;
+}
+
+.land__card p {
+  font-size: 13px;
+  color: var(--text-2);
+  line-height: 1.55;
+}
+
+/* Steps (How it works) */
+.land__steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.land__step {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px 22px;
+}
+
+.land__stepNum {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 12px;
+}
+
+.land__step h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-1);
+  margin-bottom: 6px;
+}
+
+.land__step p {
+  font-size: 13px;
+  color: var(--text-2);
+  line-height: 1.55;
+}
+
+/* CTA Card Box */
+.land__ctaCard {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 56px 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+
+.land__ctaTitle {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text-1);
+}
+
+.land__ctaSub {
+  color: var(--text-2);
+  font-size: 15px;
+  max-width: 52ch;
+  line-height: 1.6;
+}
+
+.land__ctaBadge {
+  font-size: 12px;
+  color: var(--text-3);
+  margin-top: 8px;
+}
+
+/* Footer */
+.land__footer {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 28px 24px 44px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--text-3);
+}
+
+.land__footLink {
+  color: var(--text-2);
+  font-weight: 600;
+}
+
+.land__footLink:hover {
+  color: var(--text-1);
+}
+
+/* Responsive */
+@media (max-width: 920px) {
+  .land__hero {
+    grid-template-columns: 1fr;
+    padding: 48px 20px 56px;
+    gap: 40px;
+  }
+  
+  .land__links {
+    display: none;
+  }
+  
+  .land__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .land__steps {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 580px) {
+  .land__grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .land__ctaCard {
+    padding: 36px 20px;
+  }
+  
+  .land__footer {
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+}

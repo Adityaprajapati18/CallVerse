@@ -1,0 +1,20 @@
+{
+  "appId": "com.callverse.app",
+  "appName": "CallVerse",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    },
+    "FirebaseAuthentication": {
+      "skipNativeAuth": false,
+      "providers": ["google.com"]
+    }
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}
