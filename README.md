@@ -13,9 +13,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Adityaprajapati18/crypto-caller/stargazers"><img src="https://img.shields.io/github/stars/Adityaprajapati18/crypto-caller?style=for-the-badge&color=ffd21e&logo=github" alt="Stars"></a>
-  <a href="https://github.com/Adityaprajapati18/crypto-caller/network/members"><img src="https://img.shields.io/github/forks/Adityaprajapati18/crypto-caller?style=for-the-badge&color=6366f1&logo=github" alt="Forks"></a>
-  <a href="https://github.com/Adityaprajapati18/crypto-caller/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License"></a>
+  <a href="https://github.com/Adityaprajapati18/callverse/stargazers"><img src="https://img.shields.io/github/stars/Adityaprajapati18/callverse?style=for-the-badge&color=ffd21e&logo=github" alt="Stars"></a>
+  <a href="https://github.com/Adityaprajapati18/callverse/network/members"><img src="https://img.shields.io/github/forks/Adityaprajapati18/callverse?style=for-the-badge&color=6366f1&logo=github" alt="Forks"></a>
+  <a href="https://github.com/Adityaprajapati18/callverse/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License"></a>
   <a href="https://react.dev/"><img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React 19"></a>
   <a href="https://webrtc.org/"><img src="https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white" alt="WebRTC"></a>
   <a href="https://socket.io/"><img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.IO"></a>
@@ -117,7 +117,7 @@ sequenceDiagram
 ## 📂 Repository Layout
 
 ```
-crypto-caller/
+callverse/
 ├── 📱 android/              # Native Android project with custom Capacitor plugins
 │   ├── app/src/main/java/   # RingtonePlugin, AudioRoutePlugin, CallMessagingService
 │   └── app/src/main/res/    # Native XML layouts for incoming call screens
@@ -147,8 +147,8 @@ Ensure you have the following installed:
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/Adityaprajapati18/crypto-caller.git
-cd crypto-caller
+git clone https://github.com/Adityaprajapati18/callverse.git
+cd callverse
 ```
 
 ### 3. Client Setup
@@ -244,7 +244,7 @@ This software is distributed under the terms of the **MIT License**. For complet
 ## 👤 Maintainer & Support
 
 * **Project Lead**: [Aditya Prajapati](https://github.com/Adityaprajapati18)
-* **Bug Reports & Feedback**: Please submit technical issues or feature proposals via the [GitHub Issue Tracker](https://github.com/Adityaprajapati18/crypto-caller/issues).
+* **Bug Reports & Feedback**: Please submit technical issues or feature proposals via the [GitHub Issue Tracker](https://github.com/Adityaprajapati18/callverse/issues).
 * **Contributions**: Pull requests adhere to standard open-source contribution guidelines.
 
 <br>
